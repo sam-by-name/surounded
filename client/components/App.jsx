@@ -1,13 +1,13 @@
 import React from 'react'
 import Circle from './Circle'
 
-const App = props => {
-  width = window.innerWidth
-  height = window.innerHeight
+const App = () => {
+  const width = window.innerWidth
+  const height = window.innerHeight
 
   const circle = {
-    cx: props.width / 2,
-    cy: props.height / 2,
+    cx: width / 2,
+    cy: height / 2,
     level: 0,
     r: 256
   }
